@@ -1,0 +1,22 @@
+{
+  "name": "project_structure",
+  "version": "1.0.0",
+  "description": "standard express project setup",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT&nodemon server.js"
+  },
+  "author": "sahil LyfetAstic",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "parser": "^0.1.4"
+  }
+}
